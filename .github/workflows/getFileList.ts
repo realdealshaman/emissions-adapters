@@ -11,5 +11,6 @@ files.forEach(file => {
 console.log(JSON.stringify([...fileSet]));
 
 function parse(data: any) {
+
   return data.replace("[", "").replace("]", "").split(",");
 }
